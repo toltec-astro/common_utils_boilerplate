@@ -1,5 +1,10 @@
 # `common_utils` boilerplate
 
+## Project structure
+
+The `CMakeLists.txt` file contains documentation on how everything works
+behind the scene and possible ways to structure the code.
+
 ## Build
 
 ```
@@ -17,7 +22,7 @@ The built executables is in `<builddir>/bin/` by default.
 
 ### On git submodule
 
-The common_utils package is managed as the git submodule.
+If the common_utils package is managed as the git submodule.
 After the project repo is cloned, the submodule does not
 get populated until the `git submodule update ...` call is
 made.
